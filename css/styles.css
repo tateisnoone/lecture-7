@@ -1,0 +1,21 @@
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.parent {
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+}
+.child {
+  width: 200px;
+  aspect-ratio: 1/1;
+  background-color: blueviolet;
+  transition: all 3s ease-in 1s;
+}
+.child:hover {
+  background-color: brown;
+  width: 300px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
